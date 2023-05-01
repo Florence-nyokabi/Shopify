@@ -1,0 +1,179 @@
+nav {
+    background-color: #f5f5f5;
+    padding: 0.5em;
+  }
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+  }
+  nav li {
+    margin-right: 1em;
+  }
+  nav a {
+    color: #333;
+    text-decoration: none;
+  }
+  #home{
+    min-height: 95vh;
+    display: flex;
+    align-items: center;
+    background: url(images/trendslady.jpeg);
+    background-size: cover;  
+    background-position: center;
+  }
+  .home-content{
+    margin-left: 8%;
+  }
+  .home-content p{
+    font-size: xx-large;
+    color: #f5f5f5;
+  }
+  .home-content button{
+    background-color: palevioletred;
+    height: 6vh;
+    width: 40%;
+    border-color: palevioletred;
+    border-radius: 2px;
+    color: #f5f5f5;
+  }
+  h3{
+    text-align: center;
+  }
+  .dress-headings{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    }
+.dress-headings h2{
+  margin-left: 32%;
+}
+.dress-headings h3{
+  margin-left: 25%;
+  margin-right: 25%;
+}
+.dress-images{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+img{
+  width: 10%;
+}
+.scarlet-wrap{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.view-button{
+  width: 20%;
+  background-color: palevioletred;
+  border-color: palevioletred;
+  border-radius: 2px;
+  color: #f5f5f5;
+  margin-left: 40%;
+  margin-top: 10%;
+}
+.shop-now1{
+  min-height: 60vh;
+  width: 52%;
+  display: flex;
+  align-items: center;
+  background: url(images/full-length-portrait-concentrated-muscular-sportswoman.jpg);
+  background-size: cover;  
+  background-position: center;
+}
+.big-shop{
+  display: flex;
+  flex-direction: row;
+
+}
+.heels-div{
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
+}
+.heels1{
+  min-height: 60vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background: url(images/heels.jpg);
+  background-size: cover;  
+  background-position: center;
+}
+.heels2{
+  min-height: 60vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background: url(images/Got\ Small\ Feet_\ The\ Best\ and\ Worst\ Shoes\ for\ You.png);
+  background-size: cover;  
+  background-position: center;
+  margin-top: 2%;
+}
+.big-shop p{
+  color: #f5f5f5;
+  font-size: xx-large;
+  margin-bottom: -20%;
+  margin-right: 0%;
+}
+.big-shop p1{
+  color: #f5f5f5;
+}
+.heels-div button{
+  background-color: palevioletred;
+  border-color: palevioletred;
+  color: #f5f5f5;
+  /* padding: 2px; */
+  border-radius: 2px;
+}
+.shop-now1 button{
+  background-color: palevioletred;
+  border-color: palevioletred;
+  color: #f5f5f5;
+  padding: 15px;
+  border-radius: 4px;
+}
+.last-img{
+  min-height: 60vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background: url(images/portrait-confident-woman-trying-new-shoes.jpg);
+  background-size: cover;  
+  background-position: center;
+}
+.last-img i{
+  background-color: #f5f5f5;
+  color: palevioletred;
+  margin-left: 50%;
+}
+.footer-div-1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.footer-div-1 li{
+  list-style-type: none;
+}
+.icons-div{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.icons-div i{
+
+}
+.footer-button{
+  background-color: palevioletred;
+  border-color: palevioletred;
+  color: #f5f5f5;
+  padding: 15px;
+  border-radius: 4px;
+}
+.footer input{
+  padding:12px;
+  border-radius: 4px;
+  width: 10%;
+}
